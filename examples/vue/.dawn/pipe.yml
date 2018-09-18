@@ -1,0 +1,5 @@
+dev:
+  - name: storybook
+    location: ../../lib/index.js
+    type: vue
+    
