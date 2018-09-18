@@ -1,11 +1,18 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { storiesOf } from '@storybook/angular';
 import { action } from '@storybook/addon-actions';
+import { ButtonComponent } from '../src/Button';
 
-storiesOf('Button', module)
-  .add('with text', () => (
-    <button onClick={action('clicked')}>Hello Button</button>
-  ))
-  .add('with some emoji', () => (
-    <button onClick={action('clicked')}>😀 😎 👍 💯</button>
-  ));
+storiesOf('My Button', module)
+  .add('with some emoji', () => ({
+    component: ButtonComponent,
+    props: {
+      text: '😀 😎 👍 💯',
+    },
+  }))
+  .add('with some emoji and action', () => ({
+    component: ButtonComponent,
+    props: {
+      text: '😀 😎 👍 💯',
+      click: action('clicked'),
+    },
+  }));
