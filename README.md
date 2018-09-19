@@ -6,7 +6,7 @@ title: storybook 中间件
 
 ## dn-middleware-storybook
 
-dn-middleware-storybook 用于启动或打包 storybook，可以在应用之外快速调试组件。
+dn-middleware-storybook 用于启动或打包 [storybook](https://storybook.js.org/)，可以在应用之外快速调试组件。
 
 注意：在启动 storybook 服务时，dn-middleware-storybook 将使用 watch 模式的 webpack 编译代码，常期占用线程，后续中间件提前在 webpack 运行前执行。
 

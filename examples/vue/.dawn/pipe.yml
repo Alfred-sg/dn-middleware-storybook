@@ -1,5 +1,24 @@
+init:
+  - name: pkginfo
+
 dev:
+  - name: clean
+  - name: webpack # 使用中间件加载必要的依赖
+    watch: true
+  - name: server
+
+build:
+  - name: clean
+  - name: webpack
+
+test:
   - name: storybook
     location: ../../lib/index.js
     type: vue
-    
+
+publish:
+  - name: shell
+    script:
+      - dn test
+      - dn build
+      - npm pu

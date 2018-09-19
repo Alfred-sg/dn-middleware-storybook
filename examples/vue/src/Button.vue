@@ -30,5 +30,4 @@
     background-color: white;
     outline: none;
   }
-  
 </style>
