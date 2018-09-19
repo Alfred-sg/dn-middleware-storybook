@@ -6,13 +6,13 @@ storiesOf('My Button', module)
   .add('with some emoji', () => ({
     component: ButtonComponent,
     props: {
-      text: '😀 😎 👍 💯',
+      label: '😀 😎 👍 💯',
     },
   }))
   .add('with some emoji and action', () => ({
     component: ButtonComponent,
     props: {
-      text: '😀 😎 👍 💯',
+      label: '😀 😎 👍 💯',
       click: action('clicked'),
     },
   }));
