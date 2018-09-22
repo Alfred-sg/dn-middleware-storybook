@@ -1,3 +1,6 @@
+test: 
+  - name: webpack
+    
 dev:
   - name: storybook
     location: ../../lib/index.js

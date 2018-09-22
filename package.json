@@ -1,6 +1,6 @@
 {
   "name": "dn-middleware-storybook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "start or build storybook",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,6 +9,8 @@
   "author": "alfred.qiu",
   "license": "MIT",
   "dependencies": {
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
     "@storybook/cli": "^3.4.11"
   }
 }

@@ -1,0 +1,2 @@
+webpackJsonp([1],[function(t,n,o){t.exports=o(1)},function(t,n){n.__esModule=!0,n.default={name:"my-button",data:function(){return{buttonStyles:{border:"1px solid #eee",borderRadius:3,backgroundColor:"#FFFFFF",cursor:"pointer",fontSize:15,padding:"3px 10px",margin:10}}},template:'\n    <button :style="buttonStyles" @click="onClick">\n      <slot></slot>\n    </button>\n  ',methods:{onClick:function(){this.$emit("click")}}},t.exports=n.default}],[0]);
+//# sourceMappingURL=MyButton.js.map

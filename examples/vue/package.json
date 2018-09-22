@@ -9,7 +9,6 @@
   "author": "alfred",
   "license": "MIT",
   "devDependencies": {
-    "dn-middleware-webpack": "^1.10.0"
   },
   "dependencies": {
     "vue": "^2.5.17"
