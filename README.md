@@ -19,3 +19,5 @@ dn-middleware-storybook 用于启动或打包 [storybook](https://storybook.js.o
 | config | 配置文件目录名  | '.storybook' |
 | assets | 静态资源路径  | './assets' |
 | output | 打包目录名  | '.docs' |
+
+备注：调试类库时，可在 webpack 中间件后使用 storybook，各故事板中加载的调试组件也源自打包文件，这样可以避免 storybook 服务和本地 webpack 配置策略的不同。
