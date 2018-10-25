@@ -14,4 +14,5 @@ yarn.lock
 node_modules/
 /node_modules/
 /.vscode/
+/examples/
 .DS_Store
